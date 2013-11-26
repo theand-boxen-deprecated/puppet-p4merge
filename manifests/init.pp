@@ -1,11 +1,11 @@
-# Public: Install CleanMyMac2.app into /Applications.
+# Public: Install P4V.app into /Applications.
 #
 # Examples
 #
-#   include clean-my-mac2
-class clean-my-mac2 {
-  package { 'CleanMyMac2':
+#   include p4merge
+class p4merge {
+  package { 'p4merge':
     provider => 'appdmg',
-    source   => 'http://dl.devmate.com/com.macpaw.CleanMyMac2/CleanMyMac2.dmg'
+    source   => 'http://www.perforce.com/downloads/perforce/r13.3/bin.macosx106x86_64/P4V.dmg'
   }
 }

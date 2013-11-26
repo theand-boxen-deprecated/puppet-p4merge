@@ -1,11 +1,11 @@
-# CleanMyMac2 Module for Boxen
+# P4Merge Module for Boxen
 
-Install [CleanMyMac 2](http://macpaw.com/cleanmymac), application for keeping your Mac clean, organized, and free of files that slow it down.
+Install [p4merge](http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools), application for Visual Merge and Diff Tools.
 
 ## Usage
 
 ```puppet
-include clean-my-mac2
+include p4merge
 ```
 
 ## Required Puppet Modules
