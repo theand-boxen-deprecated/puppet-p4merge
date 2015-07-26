@@ -6,7 +6,7 @@
 class p4merge {
   package { 'p4merge':
     provider => 'appdmg',
-    source   => 'http://www.perforce.com/downloads/perforce/r14.2/bin.macosx107x86_64/P4V.dmg'
+    source   => 'http://www.perforce.com/downloads/perforce/r14.3/bin.macosx107x86_64/P4V.dmg'
   }
 
   file { '/opt/boxen/bin/p4merge':

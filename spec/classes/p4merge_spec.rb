@@ -4,7 +4,7 @@ describe 'p4merge' do
   it do
     should contain_package('p4merge').with({
       :provider => 'appdmg',
-      :source   => 'http://www.perforce.com/downloads/perforce/r14.2/bin.macosx107x86_64/P4V.dmg',
+      :source   => 'http://www.perforce.com/downloads/perforce/r14.3/bin.macosx107x86_64/P4V.dmg',
     })
   end
   it do
